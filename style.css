@@ -1,0 +1,71 @@
+body {
+  background-color: #edf2f8;
+  height: auto;
+  margin: auto;
+}
+
+.card{
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.image1{
+  border-radius: 50%;
+  border-color: #A278E3;
+  border-style: solid;
+  border-width: 2.5px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.image2{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.pattern{
+  position: absolute;
+  margin-left: 410px;
+  margin-top: -27px;
+  z-index: 0;
+}
+
+.name{
+  margin-left: 50px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.title{
+  margin-top: -18px;
+  opacity: 0.6;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.text{
+  margin-top: -5px;
+  font-weight: bold;
+  font-size: 19px;
+  position: relative;
+  z-index: 1;
+}
+
+.quote{
+  opacity: 0.6;
+  font-size: 13.5px;
+  margin-top: 24px;
+  z-index: 1;
+}
